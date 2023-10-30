@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             bulb.classList.remove('on');
             status.innerText = '';
+            trollLaugh.pause(); // Phát âm thanh cười trol
         }
     });
 
