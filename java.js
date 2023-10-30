@@ -9,9 +9,13 @@ document.addEventListener('DOMContentLoaded', function () {
         if (isLightOn) {
             bulb.classList.add('on');
             status.innerText = 'Bấm cc gì vậy';
+            trollLaugh.play(); // Phát âm thanh cười trol
         } else {
             bulb.classList.remove('on');
             status.innerText = '';
         }
     });
+
+    const trollLaugh = document.getElementById('trollLaugh');
 });
+
